@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+package-lock.json
+.env
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Sensitive configuration
+config.private.js
+**/private/*
+**/secrets/*
+
+# API keys and credentials
+*.pem
+*.key
+credentials.json
